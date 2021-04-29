@@ -1,3 +1,5 @@
+This is a fork of [jsonwebtoken](https://github.com/Keats/jsonwebtoken) that allows JWT tokens that never expire and do not contain the exp field.
+
 # jsonwebtoken
 
 [![Build Status](https://travis-ci.org/Keats/jsonwebtoken.svg)](https://travis-ci.org/Keats/jsonwebtoken)

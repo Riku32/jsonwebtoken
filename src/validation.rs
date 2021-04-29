@@ -110,8 +110,6 @@ pub fn validate(claims: &Map<String, Value>, options: &Validation) -> Result<()>
             if from_value::<u64>(exp.clone())? < now - options.leeway {
                 return Err(new_error(ErrorKind::ExpiredSignature));
             }
-        } else {
-            return Err(new_error(ErrorKind::ExpiredSignature));
         }
     }
 
